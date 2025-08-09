@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mood-Vibe</title>
+</head>
+<body>
+
+    <!-- Première couche d'ondulations 
+
+ <div class="svg-waves">
+       
+        <svg class="wave-layer" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+            <defs>
+                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <path d="M0,200 Q150,100 300,200 T600,200 Q750,100 900,200 T1200,200 L1200,800 L0,800 Z" fill="url(#gradient1)"/>
+        </svg>
+
+        
+        <svg class="wave-layer" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+            <defs>
+                <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <path d="M0,350 Q200,250 400,350 T800,350 Q1000,250 1200,350 L1200,800 L0,800 Z" fill="url(#gradient2)"/>
+        </svg>
+
+       
+        <svg class="wave-layer" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+            <defs>
+                <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <path d="M0,500 Q300,400 600,500 T1200,500 L1200,800 L0,800 Z" fill="url(#gradient3)"/>
+        </svg>
+    </div>
+   
+-->
+   
+    <header>
+
+      
+
+
+
+        <nav>
+            <div class="logo">
+               <h5>M-V</h5>
+                <p>Mood-Vibe</p>
+            </div>
+            <div class="navlinks">
+                <ul>
+                  <li><a href="#">How it works</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">library</a></li>
+                </ul>
+            </div>
+
+            <div class="login"><a href="#">login</a></div>
+        </nav>
+
+        <div class="hero">
+
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Melodies <br> that help you <br> stay focus</h2>
+                    <p>A sound bubble to eliminate distractions <br> and fully immerse yourself in your work.</p> 
+               
+                <div class="email-container">
+                     <input 
+                        type="email" 
+                        class="email-input" 
+                        placeholder="Your email address"
+                         id="emailInput"
+                         >
+                       <button class="get-started-btn" onclick="handleGetStarted()">
+                       Get Started
+                         </button>
+                </div> 
+                 </div>
+
+               <div class="hero-image">
+                  <div class="hero-pic">
+                      <picture><img src="images/H3.png" class="pic1"></picture>
+                  </div>
+                  <div class="vibe">
+                    <picture><img src="images/violet.jpg" class="vibe1"></picture>
+                    <picture><img src="images/rouge.jpg" class="vibe2"></picture>
+                    <picture><img src="images/bleu.jpg" class="vibe3"></picture>
+                    <picture><img src="images/electrify.jpg" class="vibe4"></picture>
+                  </div>
+               </div> 
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="left-section">
+            <h2 class="section-title">Featured Melody</h2>
+            <div class="featured-grid">
+                <div class="card">
+                    <div class="card-image card-1">
+                        <div class="play-button">
+                            <div class="play-icon"></div>
+                        </div>
+                    </div>
+                    <div class="card-title">Moment of silence</div>
+                    <div class="card-artist">Samantha Williams</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image card-2">
+                        <div class="play-button">
+                            <div class="play-icon"></div>
+                        </div>
+                    </div>
+                    <div class="card-title">The sound of nature</div>
+                    <div class="card-artist">Thomas Miller</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image card-3">
+                        <div class="play-button">
+                            <div class="play-icon"></div>
+                        </div>
+                    </div>
+                    <div class="card-title">Fantastic Wave</div>
+                    <div class="card-artist">Marcus Smith</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div class="weekly-section">
+                <h2 class="section-title">Weekly Popular</h2>
+                <ul class="popular-list">
+                    <li class="popular-item">
+                        <div class="item-number">1</div>
+                        <div class="item-info">
+                            <div class="item-title">Harmony in our life</div>
+                            <div class="item-stats">2M plays</div>
+                        </div>
+                    </li>
+                    <li class="popular-item">
+                        <div class="item-number">2</div>
+                        <div class="item-info">
+                            <div class="item-title">Moment of silence</div>
+                            <div class="item-stats">1.2M+ played</div>
+                        </div>
+                    </li>
+                    <li class="popular-item">
+                        <div class="item-number">3</div>
+                        <div class="item-info">
+                            <div class="item-title">The sound of nature</div>
+                            <div class="item-stats">652.9k played</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
