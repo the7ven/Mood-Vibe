@@ -266,10 +266,8 @@ nav{
         }
 
         .vibe picture img{
-            width: 80px;
-            border-radius: 50%;
-            border: 5px solid rgb(255, 255, 255);
-            animation: float 3s ease-in-out infinite;
+           width: 70px;
+           animation: float 3s ease-in-out infinite;
         }
 
 
@@ -284,7 +282,7 @@ nav{
            position: absolute;
            top: 45%;
            left: 75%;
-           z-index: -1;
+           z-index: 1;
           
         }
 
@@ -300,6 +298,14 @@ nav{
            position: absolute;
            top: 85%;
            right: 55%;
+           z-index: 1;
+         }
+
+
+          .vibe5{
+           position: absolute;
+           top: 90%;
+           right: 25%;
            z-index: 1;
          }
 
